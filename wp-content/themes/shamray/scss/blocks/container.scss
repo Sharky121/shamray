@@ -1,0 +1,22 @@
+.container {
+  height: 100%;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+@include tablet-size {
+  .container {
+    max-width: $tablet-width;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@include desktop-size {
+  .container {
+    max-width: $desktop-width;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}

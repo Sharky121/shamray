@@ -1,0 +1,37 @@
+.additional-menu__list {
+  @include list-reset;
+}
+
+.additional-menu__link {
+  display: block;
+  padding: 8px 10px 7px 10px;
+  margin-bottom: 5px;
+
+  color: #858585;
+  line-height: 27px;
+
+  background: #fff;
+  border: 1px solid rgba(0,0,0,.04);
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: #ffffff;
+
+    background-color: #6ec656;
+  }
+}
+
+.additional-menu__item--active {
+  .additional-menu__link {
+    color: #ffffff;
+
+    background-color: #6ec656;
+  }
+}
+
+@include tablet-size {
+  .additional-menu {
+    width: 240px;
+  }
+}

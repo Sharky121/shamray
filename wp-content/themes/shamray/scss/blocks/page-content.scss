@@ -1,0 +1,25 @@
+.page-content__container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.page-content {
+  p {
+    margin: 0 0 15px;
+
+    color: $brand-color-text-grey;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@include desktop-size {
+  .page-content__container {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}

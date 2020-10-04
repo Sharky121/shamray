@@ -1,0 +1,14 @@
+.logo {
+  display: block;
+}
+
+.logo__img {
+  vertical-align: middle;
+}
+
+@include desktop-size {
+  .logo__img {
+    width: 96px;
+    height: auto;
+  }
+}

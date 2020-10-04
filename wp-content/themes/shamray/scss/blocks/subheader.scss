@@ -1,0 +1,29 @@
+.subheader {
+  padding: 15px 0;
+
+  background-image: url('img/subhead-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.subheader__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.subheader__page-title {
+  margin-bottom: 5px;
+}
+
+@include desktop-size {
+  .subheader {
+    padding: 40px 0;
+  }
+
+  .subheader__page-title {
+    margin-bottom: 20px;
+  }
+}
