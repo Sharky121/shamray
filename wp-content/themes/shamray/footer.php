@@ -1,5 +1,4 @@
 </div>
-<?php wp_footer() ?>
 <footer class="main-footer">
   <div class="main-footer__license">
     <div class="container">
@@ -33,6 +32,6 @@
     </div>
   </div>
 </footer>
-
+<?php wp_footer() ?>
 </body>
 </html>

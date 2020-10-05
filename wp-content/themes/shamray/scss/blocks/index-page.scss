@@ -1,0 +1,57 @@
+.index-page__section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.index-page__slider {
+  position: relative;
+
+  width: 100%;
+  min-height: 200px;
+
+  text-align: center;
+
+  background-image: url("img/slide.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 70%;
+  background-size: cover;
+
+  z-index: 1;
+}
+
+.index-slider__background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  width: 100%;
+  height: 100%;
+
+  z-index: 2;
+
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.index-page__section.index-page__advantages {
+  padding-top: 0;
+}
+
+@include tablet-size {
+  .index-page__section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@include desktop-size {
+  .index-page__section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .index-page__section.index-page__advantages {
+    padding-bottom: 0;
+  }
+}

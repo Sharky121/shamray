@@ -1,0 +1,25 @@
+.category-child__list {
+  @include list-reset;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.category-child__item {
+  width: 24%;
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+
+.category-child__img {
+  width: 200px;
+
+  overflow: hidden;
+}
+
+.category-child__img img {
+  max-width: 100%;
+  height: auto;
+}

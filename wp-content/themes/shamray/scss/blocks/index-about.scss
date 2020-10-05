@@ -1,0 +1,51 @@
+.index-about__img {
+  display: none;
+}
+
+.index-page__about {
+  padding-top: 0;
+}
+
+.index-about__content {
+  p {
+    font-size: 14px;
+    color: $color-grey;
+  }
+}
+
+.index-about__title {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+@include tablet-size {
+  .index-about__title {
+    text-align: center;
+  }
+}
+
+@include desktop-size {
+  .index-about__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .index-about__img {
+    display: block;
+    flex-shrink: 0;
+  }
+
+  .index-about__title {
+    text-align: left;
+  }
+
+  .index-about__content {
+    max-width: 600px;
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+}

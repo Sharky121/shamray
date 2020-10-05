@@ -1,0 +1,42 @@
+.our-production__content {
+  margin-bottom: 20px;
+
+  p {
+    font-size: 14px;
+    color: $color-grey;
+  }
+}
+
+.our-production__title {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+@include tablet-size {
+  .our-production__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+
+  .our-production__content {
+    width: 48%;
+  }
+
+  .our-production__carousel {
+    align-self: center;
+    width: 48%;
+  }
+
+}
+
+@include desktop-size {
+  .our-production__content {
+    margin-bottom: 20px;
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+}

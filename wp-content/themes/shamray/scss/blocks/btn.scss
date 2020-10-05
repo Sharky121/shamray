@@ -1,0 +1,23 @@
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+
+  padding: 15px 30px;
+
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 500;
+  color: #ffffff;
+
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: $brand-color-second-green;
+
+  &:hover,
+  &:focus {
+    color: #ffffff;
+
+    border: 1px solid #ffffff;
+    background-color: transparent;
+  }
+}

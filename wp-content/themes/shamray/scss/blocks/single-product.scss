@@ -1,0 +1,27 @@
+.single-product__photo {
+  margin-bottom: 20px;
+}
+
+.single-product__title {
+  margin-top: 0;
+}
+
+@include desktop-size {
+  .single-product__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .single-product__photo {
+    flex-shrink: 0;
+    width: 48%;
+    margin-right: 40px;
+
+  }
+
+  .single-product__excerpt {
+    flex-grow: 1;
+    width: 48%;
+  }
+}

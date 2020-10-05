@@ -29,9 +29,3 @@
     background-color: #6ec656;
   }
 }
-
-@include tablet-size {
-  .additional-menu {
-    width: 240px;
-  }
-}

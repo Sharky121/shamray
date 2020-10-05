@@ -18,3 +18,11 @@ const navButtonClickHandler = () => {
 Node.MAIN_NAV.classList.remove(`main-nav--nojs`);
 
 Node.NAV_BUTTON_TOGGLE.addEventListener(`click`, navButtonClickHandler);
+
+$('.owl-carousel').owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: false,
+  dots: false,
+  items: 1
+})

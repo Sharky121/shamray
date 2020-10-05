@@ -11,20 +11,18 @@ Template post type: post, page
   <div class="page-content__subheader subheader">
     <div class="container subheader__container">
       <h1 class="subheader__page-title page-title"><?php the_title(); ?></h1>
-      <ul class="subheader__breadcrumbs breadcrumbs">
-          <?php the_breadcrumb() ?>
-      </ul>
+      <?php if (function_exists( 'dimox_breadcrumbs' )) dimox_breadcrumbs(); ?>
     </div>
   </div>
 
   <div class="page-content__container container">
+    <div class="page-content__main">
       <?php
-      global $more;
-      while(have_posts()) : the_post();
-          $more = 1;
-          the_content();
+      while( have_posts()) : the_post();
+        the_content();
       endwhile;
       ?>
+    </div>
   </div>
 </main>
 

@@ -15,11 +15,24 @@
   }
 }
 
+.page-content__category-child {
+  margin-top: 20px;
+}
+
 @include desktop-size {
   .page-content__container {
     display: flex;
     align-items: flex-start;
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+
+  .page-content__additional-menu {
+    width: 240px;
+    flex-shrink: 0;
+  }
+
+  .page-content__main {
+    margin-right: 40px;
   }
 }

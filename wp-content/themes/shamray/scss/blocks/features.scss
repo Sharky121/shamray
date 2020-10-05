@@ -1,0 +1,23 @@
+.features__list {
+  @include list-reset;
+}
+
+.features__item {
+  position: relative;
+
+  padding-left: 24px;
+
+  &::before {
+    content: '';
+
+    position: absolute;
+    top: 5px;
+    left: 0;
+
+    width: 16px;
+    height: 16px;
+
+    background: url('img/right.svg');
+    background-size: cover;
+  }
+}
