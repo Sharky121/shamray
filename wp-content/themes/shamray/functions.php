@@ -10,6 +10,7 @@
 
   register_nav_menus(array(
       'header_menu' => 'Меню в шапке',
+      'aside_menu' => 'aside-production',
   ));
 
   function true_include_myscript() {
@@ -34,11 +35,12 @@
 
   add_action( 'init', 'owl_script' );
 
-//  function my_scripts_method() {
-//    wp_enqueue_script( 'custom', get_template_directory_uri() . '/js/custom.js', array('jquery') );
-//  }
-//
-//  add_action( 'wp_enqueue_scripts', 'my_scripts_method' );
+
+function lightcase() {
+  wp_enqueue_script( 'lightcasescript',  get_template_directory_uri() . '/js/lightcase.js', array('jquery'), '3.0', true );
+}
+
+add_action( 'init', 'lightcase' );
 
   /*
    * "Хлебные крошки" для WordPress

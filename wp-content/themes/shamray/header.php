@@ -38,8 +38,8 @@
             <span class="visually-hidden">Открыть меню</span>
           </button>
           <?php
-          wp_nav_menu([
-            'theme_location'  => '',
+            wp_nav_menu([
+            'theme_location'  => 'header_menu',
             'menu'            => '',
             'container'       => '',
             'container_class' => '',

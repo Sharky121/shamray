@@ -25,4 +25,6 @@ $('.owl-carousel').owlCarousel({
   nav: false,
   dots: false,
   items: 1
-})
+});
+
+$('a[data-rel^=lightcase]').lightcase();

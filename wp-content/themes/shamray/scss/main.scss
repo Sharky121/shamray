@@ -15,10 +15,12 @@
 @import "mixins.scss";
 @import "variables.scss";
 @import "base.scss";
+@import "blocks/grid.scss";
 
 // libs
 @import "owl/owl.carousel";
 @import "owl/owl.theme.default";
+@import "lightcase/lightcase";
 
 // Blocks
 @import "blocks/container.scss";

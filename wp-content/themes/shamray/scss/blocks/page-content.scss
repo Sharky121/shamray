@@ -4,14 +4,30 @@
 }
 
 .page-content {
+  color: #858585;
+
   p {
     margin: 0 0 15px;
 
-    color: $brand-color-text-grey;
+    font-size: 14px;
 
     &:last-of-type {
       margin-bottom: 0;
     }
+  }
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    line-height: 1;
+  }
+
+  h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    line-height: 1;
   }
 }
 
@@ -25,6 +41,12 @@
     align-items: flex-start;
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+
+  .page-content {
+    p {
+      font-size: 16px;
+    }
   }
 
   .page-content__additional-menu {

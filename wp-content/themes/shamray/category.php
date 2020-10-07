@@ -50,29 +50,26 @@ Template post type: page
       </section>
     </div>
     <aside class="page-content__additional-menu additional-menu">
-      <ul class="additional-menu__list">
-        <li class="additional-menu__item">
-          <a class="additional-menu__link" href="">Экраны на батарею</a>
-        </li>
-        <li class="additional-menu__item additional-menu__item--active">
-          <a class="additional-menu__link" href="">Защита для кондиционеров</a>
-        </li>
-        <li class="additional-menu__item">
-          <a class="additional-menu__link" href="">Вентиляционные короба</a>
-        </li>
-        <li class="additional-menu__item">
-          <a class="additional-menu__link" href="">Вентиляционные решетки</a>
-        </li>
-        <li class="additional-menu__item">
-          <a class="additional-menu__link" href="">Жалюзийные решетки</a>
-        </li>
-        <li class="additional-menu__item">
-          <a class="additional-menu__link" href="">Напольные решётки из латуни и нержавейки</a>
-        </li>
-        <li class="additional-menu__item">
-          <a class="additional-menu__link" href="">Люки</a>
-        </li>
-      </ul>
+      <?php
+        wp_nav_menu([
+        'theme_location'  => 'aside_menu',
+        'menu'            => '',
+        'container'       => '',
+        'container_class' => '',
+        'container_id'    => '',
+        'menu_class'      => 'additional-menu__list',
+        'menu_id'         => '',
+        'echo'            => true,
+        'fallback_cb'     => 'wp_page_menu',
+        'before'          => '',
+        'after'           => '',
+        'link_before'     => '',
+        'link_after'      => '',
+        'items_wrap'      => '<ul class="%2$s">%3$s</ul>',
+        'depth'           => 0,
+        'walker'          => '',
+      ]);
+      ?>
     </aside>
   </div>
 </main>

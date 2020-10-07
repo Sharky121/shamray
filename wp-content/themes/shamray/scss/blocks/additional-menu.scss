@@ -2,7 +2,7 @@
   @include list-reset;
 }
 
-.additional-menu__link {
+.additional-menu__list a {
   display: block;
   padding: 8px 10px 7px 10px;
   margin-bottom: 5px;
@@ -22,10 +22,8 @@
   }
 }
 
-.additional-menu__item--active {
-  .additional-menu__link {
+.additional-menu__list .current_page_item a {
     color: #ffffff;
 
     background-color: #6ec656;
-  }
 }
