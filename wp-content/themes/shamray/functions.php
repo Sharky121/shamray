@@ -11,6 +11,7 @@
   register_nav_menus(array(
       'header_menu' => 'Меню в шапке',
       'aside_menu' => 'aside-production',
+      'opportunities-menu' => 'opportunities-menu',
   ));
 
   function true_include_myscript() {

@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e5dc11-31d7-4b7d-9a43-b6b7c95e2740" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/production.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/production.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/additional-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/additional-menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/page-content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/page-content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/subheader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/subheader.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/single.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +24,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/themes/shamray" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -70,7 +58,8 @@
       <workItem from="1601999403208" duration="1982000" />
       <workItem from="1602007902142" duration="6377000" />
       <workItem from="1602085417097" duration="8396000" />
-      <workItem from="1602105508233" duration="22000" />
+      <workItem from="1602105508233" duration="743000" />
+      <workItem from="1602158361252" duration="1377000" />
     </task>
     <servers />
   </component>
@@ -82,10 +71,10 @@
       <screen x="59" y="27" width="1861" height="1053" />
     </state>
     <state x="664" y="354" width="665" height="396" key="#com.intellij.fileTypes.FileTypeChooser/59.27.1861.1053/1920.0.1920.1080@59.27.1861.1053" timestamp="1601940263110" />
-    <state x="772" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1602016837583">
+    <state x="772" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1602106424408">
       <screen x="59" y="27" width="1861" height="1053" />
     </state>
-    <state x="772" y="310" width="424" height="484" key="FileChooserDialogImpl/59.27.1861.1053/1920.0.1920.1080@59.27.1861.1053" timestamp="1602016837583" />
+    <state x="772" y="310" width="424" height="484" key="FileChooserDialogImpl/59.27.1861.1053/1920.0.1920.1080@59.27.1861.1053" timestamp="1602106424408" />
     <state x="2187" y="178" key="FileChooserDialogImpl/59.27.3781.1053@59.27.3781.1053" timestamp="1599429593995" />
     <state x="680" y="291" width="618" height="522" key="find.popup" timestamp="1602014652869">
       <screen x="59" y="27" width="1861" height="1053" />
@@ -101,7 +90,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php-line-method">
           <url>file://$PROJECT_DIR$/wp-content/themes/shamray/functions.php</url>
-          <line>44</line>
+          <line>45</line>
           <properties>
             <option name="className" value="" />
             <option name="methodName" value="\the_breadcrumb" />
