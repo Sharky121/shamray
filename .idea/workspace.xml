@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e5dc11-31d7-4b7d-9a43-b6b7c95e2740" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/opportunities.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/opportunities.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/page-content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/page-content.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +23,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../torgi_rf" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -68,6 +65,7 @@
       <workItem from="1602494961032" duration="148000" />
       <workItem from="1602530968039" duration="1795000" />
       <workItem from="1602574656262" duration="352000" />
+      <workItem from="1602596913538" duration="821000" />
     </task>
     <servers />
   </component>
