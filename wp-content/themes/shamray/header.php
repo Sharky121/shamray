@@ -14,13 +14,10 @@
       <div class="container">
         <ul class="top-contacts__list">
           <li class="top-contacts__item top-contacts-item top-contacts-item--phone">
-            <a class="top-contacts-item__link" href="tel:+74912249338">+7 (4912) 24-93-38</a>
+            <a class="top-contacts-item__link" href="tel:+74912249338">+7 (495) 145-78-15</a>
           </li>
           <li class="top-contacts__item top-contacts-item top-contacts-item--phone">
-            <a class="top-contacts-item__link" href="tel:+7(910)611-00-50">+7 (910) 611-00-50</a>
-          </li>
-          <li class="top-contacts__item top-contacts-item top-contacts-item--phone">
-            <a class="top-contacts-item__link" href="tel:+7(491)275-27-14"> +7 (491) 275-27-14</a>
+            <a class="top-contacts-item__link" href="tel:+7(910)611-00-50">+7 (910) 642-19-85</a>
           </li>
           <li class="top-contacts__item top-contacts-item top-contacts-item--mail">
             <a class="top-contacts-item__link" href="mailto:sales@shamr.ru">sales@shamr.ru</a>

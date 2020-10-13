@@ -15,7 +15,11 @@ Template post type: post, page
   </div>
   <div class="page-content__container container">
     <div class="page-content__main">
-
+      <?php
+        while( have_posts()) : the_post();
+          the_content();
+        endwhile;
+      ?>
     </div>
     <aside class="page-content__additional-menu additional-menu">
       <?php
