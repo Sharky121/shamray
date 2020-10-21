@@ -1,10 +1,5 @@
 </div>
 <footer class="main-footer">
-  <div class="main-footer__license">
-    <div class="container">
-      <p>Продукция нашего предприятия защищена патентами РФ. Нарушение эксклюзивных прав преследуется по закону. <br>Публикация материалов возможна только с согласия администрации сайта www.shamr.ru</p>
-    </div>
-  </div>
   <div class="main-footer__contacts main-footer-contacts">
     <div class="container">
       <ul class="main-footer-contacts__list">

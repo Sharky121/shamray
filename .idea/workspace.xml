@@ -4,6 +4,9 @@
     <list default="true" id="e9e5dc11-31d7-4b7d-9a43-b6b7c95e2740" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/main-footer-contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/main-footer-contacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/main-footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/main-footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +74,7 @@
       <workItem from="1603137223662" duration="636000" />
       <workItem from="1603180132503" duration="163000" />
       <workItem from="1603188597270" duration="782000" />
-      <workItem from="1603323109513" duration="78000" />
+      <workItem from="1603323109513" duration="297000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,7 @@
 .main-footer-contacts__list {
   @include list-reset;
+  display: flex;
+  justify-content: center;
 
   text-align: center;
 }
@@ -31,17 +33,5 @@
     &:last-of-type {
       margin-bottom: 0;
     }
-  }
-}
-
-@include desktop-size {
-  .main-footer-contacts__list {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .main-footer-contacts__item {
-    flex-basis: 32%;
-    margin-bottom: 0;
   }
 }
