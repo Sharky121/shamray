@@ -17,7 +17,10 @@ Template post type: post,page
       <div class="page-content__main">
         <div class="single-product__wrapper">
           <div class="single-product__photo">
-            <a href="<?php the_post_thumbnail('large'); ?>" data-rel="lightcase">
+            <?php
+            $thumbnail_attributes = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large' ); // возвращает массив параметров миниатюры
+            ?>
+            <a href="<?php $thumbnail_attributes[0]; ?>" data-rel="lightcase">
               <?php the_post_thumbnail('large'); ?>
             </a>
           </div>
