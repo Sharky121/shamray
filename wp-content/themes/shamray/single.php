@@ -20,7 +20,7 @@ Template post type: post,page
             <?php
             $thumbnail_attributes = wp_get_attachment_image_src(get_post_thumbnail_id(), 'large' ); // возвращает массив параметров миниатюры
             ?>
-            <a href="<?php <?php the_post_thumbnail_url('large'); ?>" data-rel="lightcase">
+            <a href="<?php the_post_thumbnail_url('large'); ?>" data-rel="lightcase">
               <?php the_post_thumbnail('large'); ?>
             </a>
           </div>
