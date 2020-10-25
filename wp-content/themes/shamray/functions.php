@@ -266,3 +266,5 @@ add_action( 'init', 'lightcase' );
     wp_deregister_style( 'woocommerce-general' );
     wp_deregister_style( 'woocommerce-layout' );
   });
+
+add_theme_support( 'post-thumbnails' );
