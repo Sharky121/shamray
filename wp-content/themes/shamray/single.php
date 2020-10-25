@@ -16,7 +16,11 @@ Template post type: post,page
     <div class="page-content__container container">
       <div class="page-content__main">
         <div class="single-product__wrapper">
-          <div class="single-product__photo"><?php the_post_thumbnail('large'); ?></div>
+          <div class="single-product__photo">
+            <a href="<?php the_post_thumbnail('large'); ?>" data-rel="lightcase">
+              <?php the_post_thumbnail('large'); ?>
+            </a>
+          </div>
           <div class="single-product__excerpt">
             <h2 class="single-product__title"><?php the_title(); ?></h2>
             <?php the_excerpt(); ?>
