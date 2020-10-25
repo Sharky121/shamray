@@ -15,20 +15,25 @@ Template post type: post,page
     </div>
     <div class="page-content__container container">
       <div class="page-content__main">
-        <div class="single-product__wrapper">
-          <div class="single-product__photo"><?php the_post_thumbnail('large'); ?></div>
-          <div class="single-product__excerpt">
-            <h2 class="single-product__title"><?php the_title(); ?></h2>
-            <?php the_excerpt(); ?>
-          </div>
-        </div>
-        <div class="single-product__description">
-          <?php
-            while( have_posts()) : the_post();
-              the_content();
-            endwhile;
-          ?>
-        </div>
+        <?php
+        while( have_posts()) : the_post();
+          the_content();
+        endwhile;
+        ?>
+<!--        <div class="single-product__wrapper">-->
+<!--          <div class="single-product__photo">--><?php //the_post_thumbnail('large'); ?><!--</div>-->
+<!--          <div class="single-product__excerpt">-->
+<!--            <h2 class="single-product__title">--><?php //the_title(); ?><!--</h2>-->
+<!--            --><?php //the_excerpt(); ?>
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="single-product__description">-->
+<!--          --><?php
+//            while( have_posts()) : the_post();
+//              the_content();
+//            endwhile;
+//          ?>
+<!--        </div>-->
       </div>
       <aside class="page-content__additional-menu additional-menu">
         <?php
