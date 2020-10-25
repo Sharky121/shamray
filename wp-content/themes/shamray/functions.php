@@ -47,7 +47,7 @@ function jquery_ui() {
   wp_enqueue_script( 'jqueryui',  get_template_directory_uri() . '/js/jquery-ui.min.js', array('jquery'), '3.0', true );
 }
 
-add_action( 'init', 'jqueryui' );
+add_action( 'init', 'jquery_ui' );
 
   /*
    * "Хлебные крошки" для WordPress
