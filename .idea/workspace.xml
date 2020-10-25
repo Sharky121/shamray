@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e5dc11-31d7-4b7d-9a43-b6b7c95e2740" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/single.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +74,7 @@
       <workItem from="1603323109513" duration="297000" />
       <workItem from="1603351253190" duration="99000" />
       <workItem from="1603373644099" duration="254000" />
-      <workItem from="1603651385221" duration="338000" />
+      <workItem from="1603651385221" duration="965000" />
     </task>
     <servers />
   </component>
