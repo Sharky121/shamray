@@ -27,4 +27,6 @@ $('.owl-carousel').owlCarousel({
   items: 1
 });
 
+$( "#tabs" ).tabs();
+
 $('a[data-rel^=lightcase]').lightcase();
