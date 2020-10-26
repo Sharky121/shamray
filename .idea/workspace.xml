@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e5dc11-31d7-4b7d-9a43-b6b7c95e2740" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/single-product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/single-product.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/category-child.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/category-child.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,7 @@
       <workItem from="1603373644099" duration="254000" />
       <workItem from="1603651385221" duration="9967000" />
       <workItem from="1603696626381" duration="14000" />
-      <workItem from="1603718985471" duration="3144000" />
+      <workItem from="1603718985471" duration="3680000" />
     </task>
     <servers />
   </component>
@@ -92,10 +93,10 @@
     </state>
     <state x="772" y="310" width="424" height="484" key="FileChooserDialogImpl/59.27.1861.1053/1920.0.1920.1080@59.27.1861.1053" timestamp="1603696639158" />
     <state x="2187" y="178" key="FileChooserDialogImpl/59.27.3781.1053@59.27.3781.1053" timestamp="1599429593995" />
-    <state x="680" y="291" width="618" height="522" key="find.popup" timestamp="1602602840977">
+    <state x="680" y="291" width="618" height="522" key="find.popup" timestamp="1603723731460">
       <screen x="59" y="27" width="1861" height="1053" />
     </state>
-    <state x="680" y="291" width="618" height="522" key="find.popup/59.27.1861.1053/1920.0.1920.1080@59.27.1861.1053" timestamp="1602602840977" />
+    <state x="680" y="291" width="618" height="522" key="find.popup/59.27.1861.1053/1920.0.1920.1080@59.27.1861.1053" timestamp="1603723731460" />
     <state x="652" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1602015314620">
       <screen x="59" y="27" width="1861" height="1053" />
     </state>
