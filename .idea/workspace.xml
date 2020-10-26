@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e5dc11-31d7-4b7d-9a43-b6b7c95e2740" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/scss/bulma/base/_all.sass" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/scss/bulma/base/_all.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +74,9 @@
       <workItem from="1603323109513" duration="297000" />
       <workItem from="1603351253190" duration="99000" />
       <workItem from="1603373644099" duration="254000" />
-      <workItem from="1603651385221" duration="9295000" />
+      <workItem from="1603651385221" duration="9967000" />
+      <workItem from="1603696626381" duration="14000" />
+      <workItem from="1603718985471" duration="647000" />
     </task>
     <servers />
   </component>
@@ -85,10 +88,10 @@
       <screen x="59" y="27" width="1861" height="1053" />
     </state>
     <state x="664" y="354" width="665" height="396" key="#com.intellij.fileTypes.FileTypeChooser/59.27.1861.1053/1920.0.1920.1080@59.27.1861.1053" timestamp="1601940263110" />
-    <state x="772" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1603351347707">
+    <state x="772" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1603696639158">
       <screen x="59" y="27" width="1861" height="1053" />
     </state>
-    <state x="772" y="310" width="424" height="484" key="FileChooserDialogImpl/59.27.1861.1053/1920.0.1920.1080@59.27.1861.1053" timestamp="1603351347707" />
+    <state x="772" y="310" width="424" height="484" key="FileChooserDialogImpl/59.27.1861.1053/1920.0.1920.1080@59.27.1861.1053" timestamp="1603696639158" />
     <state x="2187" y="178" key="FileChooserDialogImpl/59.27.3781.1053@59.27.3781.1053" timestamp="1599429593995" />
     <state x="680" y="291" width="618" height="522" key="find.popup" timestamp="1602602840977">
       <screen x="59" y="27" width="1861" height="1053" />
