@@ -11,12 +11,13 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    margin-bottom: 20px;
   }
 
   .single-product__photo {
     flex-shrink: 0;
     width: 48%;
-    height: 400px;
+    height: 335px;
     margin-right: 40px;
 
     overflow: hidden;
