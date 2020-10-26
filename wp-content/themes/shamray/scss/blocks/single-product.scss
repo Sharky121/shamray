@@ -4,6 +4,8 @@
 
 .single-product__title {
   margin-top: 0;
+
+  line-height: 1.2;
 }
 
 @include desktop-size {
