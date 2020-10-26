@@ -3,7 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="e9e5dc11-31d7-4b7d-9a43-b6b7c95e2740" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-loader/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-loader/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-loader/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/single-product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/single-product.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/single.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +83,7 @@
       <workItem from="1603373644099" duration="254000" />
       <workItem from="1603651385221" duration="9967000" />
       <workItem from="1603696626381" duration="14000" />
-      <workItem from="1603718985471" duration="647000" />
+      <workItem from="1603718985471" duration="2986000" />
     </task>
     <servers />
   </component>

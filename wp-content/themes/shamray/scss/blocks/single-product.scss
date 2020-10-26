@@ -16,8 +16,10 @@
   .single-product__photo {
     flex-shrink: 0;
     width: 48%;
+    height: 400px;
     margin-right: 40px;
 
+    overflow: hidden;
   }
 
   .single-product__excerpt {
