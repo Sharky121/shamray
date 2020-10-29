@@ -1,51 +1,135 @@
-.index-about__img {
-  display: none;
-}
+.index-about__title {
+  position: relative;
 
-.index-page__about {
-  padding-top: 0;
-}
+  margin-top: 0;
+  margin-bottom: 25px;
 
-.index-about__content {
-  p {
-    font-size: 14px;
-    color: $color-grey;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 1.1px;
+  color: $brand-color-second-green;
+
+  span {
+    display: none;
   }
 }
 
-.index-about__title {
-  margin-top: 0;
-  margin-bottom: 20px;
+.index-about__subtitle {
+  margin: 0 auto 20px;
+
+  font-size: 16px;
+  color: #5f5b58;
+  text-align: center;
 }
 
-@include tablet-size {
-  .index-about__title {
-    text-align: center;
+.index-about__content {
+
+  h2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+
+  h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: $brand-color-second-green;
+  }
+
+  p {
+    margin-bottom: 30px;
+
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .btn {
+    padding: 8px 10px;
+
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    transition: all 0.35s;
+  }
+
+  .btn:first-of-type {
+    margin-right: 10px;
   }
 }
 
 @include desktop-size {
-  .index-about__container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .index-about__img {
-    display: block;
-    flex-shrink: 0;
-  }
-
   .index-about__title {
-    text-align: left;
-  }
+    font-size: 38px;
 
-  .index-about__content {
-    max-width: 600px;
+    span {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
 
-    p {
-      font-size: 16px;
+      display: block;
+      width: 100%;
+
+      font-weight: 700;
+      font-size: 54px;
+      line-height: 1;
+      color: #333333;
+      text-transform: uppercase;
+      opacity: 0.015;
+
+      transform: translateX(-50%);
+      z-index: -1;
     }
   }
 
+  .index-about__subtitle {
+    width: 50%;
+    margin-bottom: 60px;
+  }
+
+  .index-about__row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .index-about__img {
+    width: 39%;
+    margin-right: 60px;
+  }
+
+  .index-about__content {
+    flex-grow: 2;
+    width: 70%;
+
+    h2 {
+      font-size: 32px;
+      font-weight: 600;
+    }
+
+    h3 {
+      margin-top: 5px;
+
+      font-size: 18px;
+    }
+
+    p {
+      margin-bottom: 30px;
+
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .btn {
+      padding: 10px 20px;
+    }
+  }
 }

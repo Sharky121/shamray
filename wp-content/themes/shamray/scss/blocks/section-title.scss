@@ -1,0 +1,43 @@
+.section-title {
+  position: relative;
+
+  margin-top: 0;
+  margin-bottom: 25px;
+
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 1.1px;
+  color: $brand-color-second-green;
+
+  z-index: 2;
+
+  span {
+    display: none;
+  }
+}
+
+@include desktop-size {
+  .section-title{
+    font-size: 38px;
+
+    span {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+
+      display: block;
+      width: 100%;
+
+      font-weight: 700;
+      font-size: 54px;
+      line-height: 1;
+      color: #333333;
+      text-transform: uppercase;
+      opacity: 0.05;
+
+      transform: translateX(-50%);
+      z-index: -1;
+    }
+  }
+}

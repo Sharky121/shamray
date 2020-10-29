@@ -1,6 +1,5 @@
 .index-page__section {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 0;
 }
 
 .index-page__slider {
@@ -34,24 +33,14 @@
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-.index-page__section.index-page__advantages {
-  padding-top: 0;
-}
-
 @include tablet-size {
   .index-page__section {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 0;
   }
 }
 
 @include desktop-size {
   .index-page__section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-
-  .index-page__section.index-page__advantages {
-    padding-bottom: 0;
+    padding: 100px 0;
   }
 }

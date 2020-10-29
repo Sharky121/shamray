@@ -6,6 +6,11 @@
   position: relative;
 
   padding-left: 24px;
+  margin-bottom: 5px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 
   &::before {
     content: '';

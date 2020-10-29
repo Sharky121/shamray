@@ -1,0 +1,33 @@
+.index-contacts {
+  background-color: #F1F1F1;
+}
+
+.index-contacts__list {
+  @include list-reset;
+}
+
+.index-contacts__separator {
+  border-bottom: 1px dashed rgba($brand-color-green, 0.25);
+  margin: 35px 0;
+
+  p {
+    position: relative;
+    bottom: -12px;
+
+    width: 60px;
+    margin: 0 auto;
+    padding: 0 5px;
+
+    text-align: center;
+    background: #f1f1f1;
+    font-weight: 600;
+  }
+}
+
+@include desktop-size {
+  .index-contacts__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

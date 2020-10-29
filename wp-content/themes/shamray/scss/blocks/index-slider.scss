@@ -43,6 +43,10 @@
   text-align: left;
 }
 
+.index-slider__btn {
+  width: 100%;
+}
+
 @include tablet-size {
   .index-slider__container {
     flex-direction: column;
@@ -54,8 +58,8 @@
   }
 
   .index-slider__title {
+    font-size: 36px;
     text-align: left;
-    line-height: 1.4;
 
     &::after {
       margin-left: 0;
@@ -65,9 +69,15 @@
       display: inline;
     }
   }
+
+  .index-slider__btn {
+    width: auto;
+    padding-right: 60px;
+    padding-left: 60px;
+  }
 }
 
-@include tablet-size {
+@include desktop-size {
   .index-slider__container {
     padding-top: 80px;
     padding-bottom: 80px;

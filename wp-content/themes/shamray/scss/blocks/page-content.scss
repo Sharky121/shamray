@@ -3,58 +3,58 @@
   padding-bottom: 15px;
 }
 
-.page-content {
+.page-content  {
   color: #333333;
 
-  a {
+  &>a {
     color: #6ec656;
   }
 
-  p {
+  &>p {
     margin: 0 0 15px;
 
     font-size: 14px;
   }
 
-  h3 {
+  &>h3 {
     margin-top: 0;
     margin-bottom: 20px;
 
     line-height: 1;
   }
 
-  h4 {
+  &>h4 {
     margin-top: 0;
     margin-bottom: 10px;
 
     line-height: 1;
   }
 
-  ul {
+  &>ul {
     margin-bottom: 10px;
   }
 
-  table {
+  &>table {
     width: 100%;
     margin-bottom: 15px;
 
     border-collapse: collapse;
   }
 
-  td {
+  &>td {
     padding: 15px;
 
     border: 1px solid #000000;
   }
 
-  th {
+  &>th {
     padding: 15px;
 
     font-weight: 500;
     border: 1px solid #000000;
   }
 
-  iframe {
+  &>iframe {
     width: 100%;
     height: auto;
   }

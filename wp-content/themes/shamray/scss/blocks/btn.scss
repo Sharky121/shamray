@@ -4,20 +4,38 @@
 
   padding: 15px 30px;
 
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1;
   font-weight: 500;
   color: #ffffff;
 
-  border: 1px solid transparent;
-  border-radius: 5px;
+  border: 2px solid transparent;
+  border-radius: 6px;
   background-color: $brand-color-second-green;
 
   &:hover,
-  &:focus {
+  &:focus,
+  &:active {
     color: #ffffff;
 
-    border: 1px solid #ffffff;
+    border: 2px solid #ffffff;
     background-color: transparent;
+  }
+}
+
+.btn--white {
+  color: $brand-color-second-green;
+
+  border: 2px solid $brand-color-second-green;
+  background-color: transparent;
+
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: #ffffff;
+
+    border: 2px solid $brand-color-second-green;
+    background-color: $brand-color-second-green;
   }
 }

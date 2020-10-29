@@ -3,7 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="e9e5dc11-31d7-4b7d-9a43-b6b7c95e2740" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/category-child.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/category-child.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/img/about.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/img/about.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/advantages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/advantages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/btn.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/btn.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/features.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/features.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/index-about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/index-about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/index-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/index-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/index-slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/index-slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/main-footer-contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/main-footer-contacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/main-footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/main-footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/page-content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/page-content.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../torgi_rf" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -76,7 +89,9 @@
       <workItem from="1603373644099" duration="254000" />
       <workItem from="1603651385221" duration="9967000" />
       <workItem from="1603696626381" duration="14000" />
-      <workItem from="1603718985471" duration="4101000" />
+      <workItem from="1603718985471" duration="4734000" />
+      <workItem from="1603785469968" duration="44000" />
+      <workItem from="1603997199929" duration="11315000" />
     </task>
     <servers />
   </component>
@@ -88,10 +103,10 @@
       <screen x="59" y="27" width="1861" height="1053" />
     </state>
     <state x="664" y="354" width="665" height="396" key="#com.intellij.fileTypes.FileTypeChooser/59.27.1861.1053/1920.0.1920.1080@59.27.1861.1053" timestamp="1601940263110" />
-    <state x="772" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1603696639158">
+    <state x="772" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1603785511834">
       <screen x="59" y="27" width="1861" height="1053" />
     </state>
-    <state x="772" y="310" width="424" height="484" key="FileChooserDialogImpl/59.27.1861.1053/1920.0.1920.1080@59.27.1861.1053" timestamp="1603696639158" />
+    <state x="772" y="310" width="424" height="484" key="FileChooserDialogImpl/59.27.1861.1053/1920.0.1920.1080@59.27.1861.1053" timestamp="1603785511834" />
     <state x="2187" y="178" key="FileChooserDialogImpl/59.27.3781.1053@59.27.3781.1053" timestamp="1599429593995" />
     <state x="680" y="291" width="618" height="522" key="find.popup" timestamp="1603723731460">
       <screen x="59" y="27" width="1861" height="1053" />
