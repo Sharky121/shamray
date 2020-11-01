@@ -1,0 +1,32 @@
+.index-faq__container {
+  text-align: center;
+}
+
+.index-faq__answer {
+  p {
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 300;
+  }
+
+  ul {
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    font-size: 14px;
+    font-weight: 300;
+
+    li {
+      padding: 5px 0;
+    }
+  }
+}
+
+.index-faq__btn {
+  margin-top: 40px;
+}
+
+

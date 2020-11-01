@@ -1,0 +1,14 @@
+.index-testimonials {
+  background-color: #F1F1F1;
+}
+
+.index-testimonials__container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@include tablet-size {
+  .index-testimonials__container {
+    width: 740px;
+  }
+}

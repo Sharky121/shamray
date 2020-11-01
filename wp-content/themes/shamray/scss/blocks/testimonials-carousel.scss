@@ -1,0 +1,134 @@
+.testimonials-carousel {
+  margin-bottom: 50px;
+  padding: 25px;
+
+  text-align: center;
+
+  border: 1px solid rgba(103, 58, 183, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 0 20px -5px rgba(103, 58, 183, 0.2);
+}
+
+.testimonials-item__img {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 20px;
+
+  border-radius: 50%;
+
+  overflow: hidden;
+}
+
+.testimonials-item__title {
+  position: relative;
+
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  font-size: 18px;
+
+  &::after {
+    content: "";
+
+    display: block;
+    width: 60px;
+    height: 2px;
+    margin: 20px auto 0;
+
+    background-color: $brand-color-second-green;
+  }
+}
+
+.testimonials-item__text {
+  position: relative;
+
+  padding-left: 20px;
+  margin: 0;
+
+  text-align: left;
+
+  &::before {
+    content: "";
+
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+
+    vertical-align: top;
+
+    background-image: url("img/quote.svg");
+    background-size: cover;
+  }
+
+  &::after {
+    content: "";
+
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+
+    vertical-align: middle;
+
+    background-image: url("img/quote.svg");
+    transform: rotate(180deg);
+    background-size: cover;
+  }
+}
+
+.testimonials-carousel__nav {
+  margin-top: 20px;
+}
+
+.testimonials-carousel__btn {
+  position: relative;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 20px;
+  margin-right: 10px;
+
+  cursor: pointer;
+
+  border-radius: 8px;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+
+  &--prev::before {
+    content: "";
+
+    display: block;
+    width: 20px;
+    height: 20px;
+
+    background-image: url("img/left-arrow.svg");
+    background-size: cover;
+  }
+
+  &--next::before {
+    content: "";
+
+    display: block;
+    width: 20px;
+    height: 20px;
+
+    background-image: url("img/right-arrow.svg");
+    background-size: cover;
+  }
+}
+
+.testimonials-carousel__btn--prev:hover::before,
+.testimonials-carousel__btn--prev:focus::before {
+  background-image: url("img/left-arrow--white.svg");
+  background-size: cover;
+}
+
+.testimonials-carousel__btn--next:hover::before,
+.testimonials-carousel__btn--next:focus::before  {
+  background-image: url("img/right-arrow--white.svg");
+  background-size: cover;
+}

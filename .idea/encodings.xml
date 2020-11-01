@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/wp-content/themes/shamray/img/choices.svg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wp-content/themes/shamray/img/clock.svg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wp-content/themes/shamray/img/delivery-truck.svg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wp-content/themes/shamray/img/left-arrow--white.svg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wp-content/themes/shamray/img/left-arrow.svg" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wp-content/themes/shamray/img/mobile.svg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wp-content/themes/shamray/img/right-arrow--white.svg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wp-content/themes/shamray/img/right-arrow.svg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wp-content/themes/shamray/img/sketch.svg" charset="UTF-8" />
   </component>
 </project>

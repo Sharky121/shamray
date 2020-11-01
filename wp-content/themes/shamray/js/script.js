@@ -19,12 +19,20 @@ Node.MAIN_NAV.classList.remove(`main-nav--nojs`);
 
 Node.NAV_BUTTON_TOGGLE.addEventListener(`click`, navButtonClickHandler);
 
-$('.owl-carousel').owlCarousel({
+$('.testimonials-carousel').owlCarousel({
   loop: true,
+  autoplay: true,
   margin: 10,
-  nav: false,
+  nav: true,
   dots: false,
-  items: 1
+  items: 1,
+  navText: ["", ""],
+  navContainerClass: "testimonials-carousel__nav",
+  navClass:["btn btn--white testimonials-carousel__btn testimonials-carousel__btn--prev", "btn btn--white testimonials-carousel__btn testimonials-carousel__btn--next"]
+});
+
+$('#accordion').accordion({
+  heightStyle: 'content'
 });
 
 $("#tabs").tabs();
