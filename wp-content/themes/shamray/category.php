@@ -36,6 +36,10 @@ Template post type: page
             $cat = 'cat=4';
           }
 
+          if ($post_id === 126) {
+            $cat = 'cat=6';
+          }
+
           $query = new WP_Query($cat);
           if ($query->have_posts()) {
             while( $query->have_posts() ){ $query->the_post(); ?>
