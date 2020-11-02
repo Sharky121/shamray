@@ -2,39 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e5dc11-31d7-4b7d-9a43-b6b7c95e2740" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/2c/66/b9b8ee035f3a4dca0236e71a38b35860d146771851b1927cb8c5da5de0c016f3c0220293592e2825a57428e396abfd91c10b834387fc0faf568b5e851734" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/be/a0/8668be7875f7a657d8798ab21c53ef004e94002747a34a141a8497924ce19634cf7cf28623e4cc19dbc842d44122d0d92c0136f62d59fe2515038e05cd17" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/index-v5/55/ba/392fe766e5798a590346bc94c1cecb06b3cd2681eee9e55466d187b25132" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/index-v5/c6/be/e0fe1fa7c63d97bef39f49adf81e591550914cb724ba942940e52b978ee1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/shamray/img/left-arrow--white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/shamray/img/left-arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/shamray/img/quote.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/shamray/img/right-arrow--white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/shamray/img/right-arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/shamray/img/testimonials_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/shamray/img/testimonials_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/shamray/img/testimonials_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/shamray/img/testimonials_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/shamray/img/testimonials_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/index-faq.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/index-testimonials.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/shame.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/testimonials-carousel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/img/choices.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/img/choices.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/img/clock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/img/clock.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/img/delivery-truck.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/img/delivery-truck.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/img/location.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/img/location.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/img/mail.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/img/mail.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/img/mobile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/img/mobile.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/img/paint-swatch.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/img/paint-swatch.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/img/quality.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/img/quality.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/img/sketch.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/img/sketch.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/btn.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/btn.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/category-child.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/scss/blocks/category-child.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/shamray/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/shamray/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +26,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/themes/shamray/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -113,6 +83,8 @@
       <workItem from="1603785469968" duration="44000" />
       <workItem from="1603997199929" duration="11619000" />
       <workItem from="1604259604862" duration="9697000" />
+      <workItem from="1604319135997" duration="281000" />
+      <workItem from="1604346596550" duration="3886000" />
     </task>
     <servers />
   </component>
@@ -124,11 +96,11 @@
       <screen x="59" y="27" width="1861" height="1053" />
     </state>
     <state x="664" y="354" width="665" height="396" key="#com.intellij.fileTypes.FileTypeChooser/59.27.1861.1053/1920.0.1920.1080@59.27.1861.1053" timestamp="1601940263110" />
-    <state x="772" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1604266418169">
+    <state x="772" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1604319414984">
       <screen x="59" y="27" width="1861" height="1053" />
     </state>
     <state x="772" y="310" width="424" height="484" key="FileChooserDialogImpl/59.27.1861.1053/1920.0.1920.1080@59.27.1861.1053" timestamp="1604010313277" />
-    <state x="772" y="310" key="FileChooserDialogImpl/59.27.1861.1053@59.27.1861.1053" timestamp="1604266418169" />
+    <state x="772" y="310" width="424" height="484" key="FileChooserDialogImpl/59.27.1861.1053@59.27.1861.1053" timestamp="1604319414984" />
     <state x="2187" y="178" key="FileChooserDialogImpl/59.27.3781.1053@59.27.3781.1053" timestamp="1599429593995" />
     <state x="680" y="291" width="618" height="522" key="find.popup" timestamp="1604262651047">
       <screen x="59" y="27" width="1861" height="1053" />

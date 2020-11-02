@@ -15,12 +15,14 @@ Template post type: page
   </div>
   <div class="page-content__container container">
     <div class="page-content__main">
-      <?php
-      while( have_posts()) : the_post();
-        the_content();
-      endwhile;
-      ?>
+      <div>
+        <?php
+        while( have_posts()) : the_post();
+          the_content();
+        endwhile;
+        ?>
 
+      </div>
       <section class="page-content__category-child category-child">
         <ul class="category-child__list">
           <?php
@@ -31,19 +33,15 @@ Template post type: page
           }
 
           $query = new WP_Query($cat);
-          if( $query->have_posts() ){
-            while( $query->have_posts() ){
-              $query->the_post();
-              ?>
+          if ($query->have_posts()) {
+            while( $query->have_posts() ){ $query->the_post(); ?>
               <li class="category-child__item">
                 <a class="category-child__link" href="<?php the_permalink(); ?>">
                   <div class="category-child__img"><?php the_post_thumbnail('large'); ?></div>
                   <p class="category-child__title"><?php the_title(); ?></p>
                 </a>
               </li>
-              <?php
-            }
-            wp_reset_postdata(); // сбрасываем переменную $post
+            <?php } wp_reset_postdata();
           }
           ?>
         </ul>
@@ -73,5 +71,6 @@ Template post type: page
     </aside>
   </div>
 </main>
+
 <?php get_footer();?>
 
